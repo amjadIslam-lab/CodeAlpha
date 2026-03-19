@@ -1,0 +1,63 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": [
+        "Hi! How can I help you today?",
+        "Hello! What can I do for you?",
+        "Hey! Ask me anything about our services."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "talk later", "exit"],
+      "responses": [
+        "Goodbye! If you need anything else, I'm here.",
+        "Bye! Have a great day.",
+        "See you later!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["what are your hours", "opening hours", "when are you open", "working hours", "timing"],
+      "responses": [
+        "We're available Monday-Friday, 9am-6pm (local time).",
+        "Our support hours are Mon-Fri, 9:00-18:00."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["pricing", "price", "cost", "how much", "plans", "subscription"],
+      "responses": [
+        "Pricing depends on the plan. Tell me what you need (personal, small business, enterprise) and I'll guide you.",
+        "We offer flexible plans. Share your requirements and I'll help you choose."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": ["support", "help", "i need help", "contact support", "issue", "problem"],
+      "responses": [
+        "I can help troubleshoot. What issue are you facing, and what error message (if any) do you see?",
+        "Sure - describe the problem and I'll suggest the next steps."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "email", "phone", "how can i reach you", "whatsapp", "address"],
+      "responses": [
+        "You can contact us via email or WhatsApp. Tell me which you prefer and I'll share the right details.",
+        "How would you like to reach us - email, phone, or WhatsApp?"
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["what can you do", "features", "how does this work", "what is this chatbot"],
+      "responses": [
+        "I'm a quick website assistant that answers common questions (hours, pricing, support) using predefined patterns.",
+        "I can answer FAQs instantly and route you to support when needed."
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Task 4 — Website Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <div class="title">AI Chatbot (Retrieval-based)</div>
+          <div class="subtitle">Instant website replies using predefined patterns</div>
+        </div>
+        <a class="pill" href="/health" target="_blank" rel="noreferrer">health</a>
+      </header>
+
+      <section class="card">
+        <div id="chat" class="chat" aria-live="polite"></div>
+
+        <form id="form" class="composer" autocomplete="off">
+          <input
+            id="msg"
+            type="text"
+            inputmode="text"
+            placeholder="Ask about hours, pricing, support…"
+            aria-label="Message"
+          />
+          <button id="send" type="submit">Send</button>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <span>Tips: try “pricing”, “opening hours”, “contact support”.</span>
+      </footer>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
+
